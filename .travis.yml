@@ -2,6 +2,9 @@ language: android
 
 before_script:
 - ls -alF
+- env | sort
+- ls -alF /usr/local/android-sdk
+- ls -alF /usr/local/android-sdk/tools/bin
 - ./.travis-pre.sh
 
 script:
